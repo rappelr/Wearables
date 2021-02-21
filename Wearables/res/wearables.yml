@@ -1,0 +1,12 @@
+# wearables yaml v1.0.3
+# in here you can configure your wearables
+example-wearable:
+  formal-name: "&cExample Wearable nr1"
+  model: "ruby_block"
+  sound-equip: "minecraft:block.snow.hit"
+example-wearable2:
+  formal-name: "&bExample Wearable nr2"
+  model: "modern_stone"
+  model-sneaking: "nice_stone"
+  sound-equip: "minecraft:entity.shulker.open"
+  sound-unequip: "minecraft:entity.shulker.close"

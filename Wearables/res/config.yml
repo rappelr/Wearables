@@ -1,0 +1,18 @@
+# default wearables config v1.1.0
+#
+# interval in ticks at which the plugin sotres all currently equipped wearables
+# by default it should do this on disable but in case of crashes it can prevent itemloss / duplication glitches
+store-save-interval: 1200
+#
+# language configuration, chatcolor char: &
+lang:
+  no-perm: "&cYou don't have permission to do that"
+  item-dropped-to-floor: "&cYour inventory was full, the item was dropped on the floor"
+  equip-action-bar: "Right-click next to your inventory to unequip"
+#
+# Escaped commands will unequip the wearable before executing
+# They will then be reequipped after {delay} ticks
+escape:
+  delay: 4
+  commands:
+  - tp
